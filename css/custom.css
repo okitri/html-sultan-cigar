@@ -1,0 +1,9 @@
+.logo img {
+    width: 52px;
+}
+.hvr-shutter-in-horizontal {
+    background: #806636;
+}
+.hvr-shutter-in-horizontal::before {
+    background: #806636;
+}

@@ -1,0 +1,130 @@
+.section-demo-heading {
+    background: rgba(0, 0, 0, 0) url("../img/demo/banner-2.jpg") repeat scroll center center / cover;
+    padding: 100px 0;
+    position: relative;
+}
+
+.section-demo-heading::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .5);
+}
+
+.demo-top-heading {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    justify-content: center;
+}
+
+.demo-top-heading h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.demo-top-heading > p {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.demo-btn {
+    margin: 0 auto !important;
+    padding: 15px;
+}
+
+.demo-heading {
+    padding: 0 0 50px;
+}
+
+.demo-heading h2 {
+    color: #3c3c3c;
+    font-size: 22px;
+}
+
+.single-demo {
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.preview-demo {
+    border: 2px solid #e6e4e4;
+    height: 350px;
+    transition: all 7s ease 0s;
+}
+
+.demo-bg-1 {
+    background: rgba(0, 0, 0, 0) url("../img/demo/01.jpg") no-repeat scroll 0 0 / cover;
+}
+
+.demo-bg-2 {
+    background: rgba(0, 0, 0, 0) url("../img/demo/02.jpg") no-repeat scroll 0 0 / cover;
+}
+
+.demo-bg-3 {
+    background: rgba(0, 0, 0, 0) url("../img/demo/03.jpg") no-repeat scroll 0 0 / cover;
+}
+
+.demo-bg-4 {
+    background: rgba(0, 0, 0, 0) url("../img/demo/04.jpg") no-repeat scroll 0 0 / cover;
+}
+
+.demo-bg-5 {
+    background: rgba(0, 0, 0, 0) url("../img/demo/05.jpg") no-repeat scroll 0 0 / cover;
+}
+
+.demo-bg-6 {
+    background: rgba(0, 0, 0, 0) url("../img/demo/06.jpg") no-repeat scroll 0 0 / cover;
+}
+
+.demo-bg-7 {
+    background: rgba(0, 0, 0, 0) url("../img/demo/07.jpg") no-repeat scroll 0 0 / cover;
+}
+
+.demo-bg-8 {
+    background: rgba(0, 0, 0, 0) url("../img/demo/08.jpg") no-repeat scroll 0 0 / cover;
+}
+
+.coming-bg {
+    background-color: #1a1a1a;
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    line-height: 350px;
+    text-transform: uppercase;
+}
+
+.single-demo:hover .preview-demo {
+    background-position: center bottom;
+}
+
+.demo-title {
+    font-weight: 700;
+    padding: 20px 0;
+    text-align: center;
+    text-transform: uppercase;
+    color: #1a1a1a;
+}
+
+.demo-copy {
+    color: #1a1a1a !important;
+    padding: 20px 0;
+}
+
+@media only screen and (max-width: 767px) {
+    .demo-top-heading h1 {
+        font-size: 30px;
+    }
+    .demo-top-heading > p {
+        font-size: 14px;
+    }
+    .demo-heading h2 {
+        font-size: 18px;
+    }
+}
