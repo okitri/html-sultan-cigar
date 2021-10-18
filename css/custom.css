@@ -7,3 +7,7 @@
 .hvr-shutter-in-horizontal::before {
     background: #806636;
 }
+.subtitle{
+    font-family: 'Shadows Into Light', cursive;
+    margin-top: 1rem;
+}
