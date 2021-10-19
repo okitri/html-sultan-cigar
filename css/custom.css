@@ -26,3 +26,9 @@
 .about-history {
     padding: 32px 0;
 }
+.news-img::before {
+    background-color: rgba(0, 0, 0, 0);
+}
+.contact-area {
+    background-color: #0F0F0F;
+}
